@@ -7,7 +7,7 @@
     <ProjectGuid>{CC91CBAD-6F44-478C-B662-5D2243E90674}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Generic_Object_Pool</RootNamespace>
+    <RootNamespace>Pooling</RootNamespace>
     <AssemblyName>Generic Object Pool</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
